@@ -38,7 +38,7 @@ Continue integrating settings.py with varlet variables;
 
 
 ALLOWED_HOSTS = []
-AUTH_USER_MODEL = 'users.User'
+#AUTH_USER_MODEL = 'users.User'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
@@ -108,7 +108,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = ROOT("static")
 
 STATICFILES_DIRS = (
-    here("../", "static"),
+    here("static"),
 )
 
 TMP_ROOT = ROOT("tmp")
