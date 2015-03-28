@@ -13,3 +13,4 @@ urlpatterns = patterns('',
 
     # Dash
     url(r'^dash/$', dash.home, name='dash-home'),
+)
