@@ -1,6 +1,8 @@
-from django.shortcuts import render
+from django.conf import settings
+from django.core.urlresolvers import reverse
+from django.shortcuts import render, get_object_or_404, redirect
 
-def home():
+def home(request):
     """
     Returns hello world to the template
     """
